@@ -8,9 +8,9 @@ about:
   name: primary visual cortex
   schemaKey: Anatomy
 access:
-- embargoedUntil: '2027-12-28'
+- embargoedUntil: '2026-10-05'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach: []
   dataStandard: []
@@ -49,6 +49,22 @@ contributor:
   - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
+- affiliation:
+  - name: Allen Institute
+    schemaKey: Affiliation
+  email: hannah.schryver@alleninstitute.org
+  name: Schryver, Hannah
+  roleName:
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute
+    schemaKey: Affiliation
+  email: jinho.kim@alleninstitute.org
+  name: Kim, Jinho
+  roleName:
+  - dcite:Researcher
+  schemaKey: Person
 - includeInCitation: true
   name: Aloi, Macarena
   schemaKey: Person
@@ -69,22 +85,6 @@ contributor:
   schemaKey: Person
 - includeInCitation: true
   name: Davis, Matt
-  schemaKey: Person
-- affiliation:
-  - name: Allen Institute
-    schemaKey: Affiliation
-  email: jinho.kim@alleninstitute.org
-  name: Kim, Jinho
-  roleName:
-  - dcite:Researcher
-  schemaKey: Person
-- affiliation:
-  - name: Allen Institute
-    schemaKey: Affiliation
-  email: hannah.schryver@alleninstitute.org
-  name: Schryver, Hannah
-  roleName:
-  - dcite:Researcher
   schemaKey: Person
 - awardNumber: 1 U01 MH 130907-02
   identifier: https://ror.org/01cwqze88
